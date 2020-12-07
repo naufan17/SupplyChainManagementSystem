@@ -13,6 +13,51 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/login', function () {
+    return view('page.login');
 });
+
+Route::get('/dashboard', function () {
+    return view('page.dashboard');
+});
+
+Route::get('/pasokan', function () {
+    return view('page.pasokan');
+});
+
+Route::get('/kirimPasokan', function () {
+    return view('page.kirimPasokan');
+});
+
+Route::get('/kiriman', function () {
+    return view('page.kiriman');
+});
+
+Route::get('/stokPasokan', function () {
+    return view('page.stokPasokan');
+});
+
+Route::get('/produksi', function () {
+    return view('page.produksi');
+});
+
+Route::get('/stokBarang', function () {
+    return view('page.StokBarang');
+});
+
+Route::get('/pesanan', function () {
+    return view('page.pesanan');
+});
+
+Route::get('/kirimBarang', function () {
+    return view('page.kirimBarang');
+});
+
+Route::get('/permintaan', function () {
+    return view('page.permintaan');
+});
+
+Route::get('/konfirmasi', function () {
+    return view('page.konfirmasi');
+});
+
