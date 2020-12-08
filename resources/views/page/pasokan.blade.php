@@ -12,7 +12,7 @@
         </button>
         <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
-                <a class="nav-link" href="{{ url('/login') }}">Logout</a>
+                <a class="nav-link" href="{{ url('/login') }}">Keluar</a>
             </li>
         </ul>
     </nav>
@@ -27,6 +27,11 @@
                                 Dashboard <span class="sr-only">(current)</span>
                             </a>
                         </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Supplier</span>
+                            </h6>             
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ url('/pasokan') }}">
                                 <span data-feather="plus-circle"></span>
@@ -38,6 +43,11 @@
                                 <span data-feather="truck"></span>
                                 Kirim Pasokan
                             </a>
+                        </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Maufaktur</span>
+                            </h6>   
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/kiriman') }}">
@@ -63,6 +73,11 @@
                                 Stok Barang
                             </a>
                         </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Distributor</span>
+                            </h6>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/pesanan') }}">
                                 <span data-feather="log-in"></span>
@@ -74,6 +89,11 @@
                                 <span data-feather="truck"></span>
                                 Kirim Barang
                             </a>
+                        </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Retail</span>
+                            </h6>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/permintaan') }}">
@@ -96,7 +116,7 @@
                     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
                         <h1 class="h4">Tambah Pasokan</h1>
                     </div>
-                    <button type="button" class="btn btn-primary btn-sm pb-2 mb-3" data-toggle="modal" data-target="#exampleModal">
+                    <button type="button" class="btn btn-primary btn-sm pb-2 mb-3" data-toggle="modal" data-target="#tambahPasokan">
                         Tambah Pasokan
                     </button>
                     <div class="table-responsive">
@@ -115,10 +135,10 @@
                                     <td>Sepatu</td>
                                     <td>5</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
                                             Hapus
                                         </button>
                                     </td>
@@ -128,10 +148,10 @@
                                     <td>Tas</td>
                                     <td>10</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
                                             Hapus
                                         </button>
                                     </td>
@@ -141,10 +161,10 @@
                                     <td>Baju</td>
                                     <td>15</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
                                             Hapus
                                         </button>
                                     </td>
@@ -154,10 +174,10 @@
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
                                             Hapus
                                         </button>
                                     </td>
@@ -167,10 +187,10 @@
                                     <td>Celana</td>
                                     <td>15</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
                                             Hapus
                                         </button>
                                     </td>
@@ -184,23 +204,62 @@
     </div>
 </main>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+<div class="modal fade" id="tambahPasokan" tabindex="-1" aria-labelledby="tambahPasokanLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tambahPasokanLabel">Tambah Pasokan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="inputEmail" class="sr-only">
+                            Nama Pasokan
+                        </label>
+                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputPassword" class="sr-only">
+                            Jumlah
+                        </label>
+                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Tambah</button>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+<div class="modal fade" id="edit" tabindex="-1" aria-labelledby="editLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editLabel">Tambah Pasokan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="inputEmail" class="sr-only">
+                            Nama Pasokan
+                        </label>
+                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputPassword" class="sr-only">
+                            Jumlah
+                        </label>
+                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">Edit</button>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection

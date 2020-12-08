@@ -12,7 +12,7 @@
         </button>
         <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
-                <a class="nav-link" href="{{ url('/login') }}">Logout</a>
+                <a class="nav-link" href="{{ url('/login') }}">Keluar</a>
             </li>
         </ul>
     </nav>
@@ -22,10 +22,15 @@
                 <div class="sidebar-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="{{ url('/dashboard') }}">
                                 <span data-feather="home"></span>
                                 Dashboard <span class="sr-only">(current)</span>
                             </a>
+                        </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Supplier</span>
+                            </h6>             
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/pasokan') }}">
@@ -38,6 +43,11 @@
                                 <span data-feather="truck"></span>
                                 Kirim Pasokan
                             </a>
+                        </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Maufaktur</span>
+                            </h6>   
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/kiriman') }}">
@@ -63,6 +73,11 @@
                                 Stok Barang
                             </a>
                         </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Distributor</span>
+                            </h6>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/pesanan') }}">
                                 <span data-feather="log-in"></span>
@@ -74,6 +89,11 @@
                                 <span data-feather="truck"></span>
                                 Kirim Barang
                             </a>
+                        </li>
+                        <li>
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
+                                <span>Retail</span>
+                            </h6>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/permintaan') }}">
