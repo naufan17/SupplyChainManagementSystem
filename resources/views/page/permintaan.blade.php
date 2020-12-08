@@ -118,7 +118,7 @@
                         <h1 class="h4">Kirim Permintaan</h1>
                     </div>
                     <button type="button" class="btn btn-primary btn-sm pb-2 mb-3" data-toggle="modal" data-target="#kirimPermintaan">
-                        Kirim Permintaan Pesanan
+                        Kirim Permintaan
                     </button>
                     <div class="table-responsive">
                         <table class="table table-sm">
@@ -128,6 +128,7 @@
                                     <th>Nama Pasokan</th>
                                     <th>Jumlah</th>
                                     <th>Status</th>
+                                    <th>Alamat</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -137,11 +138,12 @@
                                     <td>Sepatu</td>
                                     <td>5</td>
                                     <td>Sedang Dikirim</td>
+                                    <td>Sleman</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
@@ -151,11 +153,12 @@
                                     <td>Tas</td>
                                     <td>10</td>
                                     <td>Sedang Dikirim</td>
+                                    <td>Sleman</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
@@ -165,11 +168,12 @@
                                     <td>Baju</td>
                                     <td>15</td>
                                     <td>Sedang Dikirim</td>
+                                    <td>Sleman</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
@@ -179,11 +183,12 @@
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
                                     <td>Sedang Dikirim</td>
+                                    <td>Sleman</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
@@ -193,11 +198,12 @@
                                     <td>Celana</td>
                                     <td>15</td>
                                     <td>Sedang Dikirim</td>
+                                    <td>Sleman</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
@@ -223,14 +229,12 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputEmail" class="sr-only">
-                            Nama Pasokan
-                        </label>
-                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
-                        <label for="inputPassword" class="sr-only">
-                            Jumlah
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
+                    <label for="inputBarang" class="sr-only">Nama Pasokan</label>
+                        <input type="barang" id="inputBarang" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
+                        <label for="inputJumlah" class="sr-only">Jumlah</label>
+                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputAlamat" class="sr-only">Alamat</label>
+                        <input type="alamat" id="inputAlamat" class="form-control mb-3" placeholder="Alamat" required>
                     </div>
                 </form>
             </div>
@@ -252,14 +256,12 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputEmail" class="sr-only">
-                            Nama Pasokan
-                        </label>
-                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
-                        <label for="inputPassword" class="sr-only">
-                            Jumlah
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputBarang" class="sr-only">Nama Pasokan</label>
+                        <input type="barang" id="inputBarang" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
+                        <label for="inputJumlah" class="sr-only">Jumlah</label>
+                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputAlamat" class="sr-only">Alamat</label>
+                        <input type="alamat" id="inputAlamat" class="form-control mb-3" placeholder="Alamat" required>
                     </div>
                 </form>
             </div>

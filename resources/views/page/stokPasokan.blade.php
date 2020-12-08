@@ -125,32 +125,31 @@
                                     <th>Jumlah</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
+                            <tr>
                                     <td>1</td>
-                                    <td>Sepatu</td>
-                                    <td>5</td>
+                                    <td>Kain</td>
+                                    <td>15</td>
                                 </tr>
-                                    <tr>
+                                <tr>
                                     <td>2</td>
-                                    <td>Tas</td>
-                                    <td>10</td>
+                                    <td>Benang</td>
+                                    <td>13</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Baju</td>
-                                    <td>15</td>
+                                    <td>Sablon</td>
+                                    <td>14</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Kaos Kaki</td>
-                                    <td>12</td>
+                                    <td>Tali Sepatu</td>
+                                    <td>9</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Celana</td>
-                                    <td>15</td>
-                                </tr>
+                                    <td>Sol Sepatu</td>
+                                    <td>10</td>
+                                </tr> 
                             </tbody>
                         </table>
                     </div>

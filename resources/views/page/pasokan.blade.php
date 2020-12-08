@@ -132,65 +132,65 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Sepatu</td>
-                                    <td>5</td>
+                                    <td>Kain</td>
+                                    <td>15</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
                                 </tr>
-                                    <tr>
+                                <tr>
                                     <td>2</td>
-                                    <td>Tas</td>
-                                    <td>10</td>
+                                    <td>Benang</td>
+                                    <td>13</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Baju</td>
-                                    <td>15</td>
+                                    <td>Sablon</td>
+                                    <td>14</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Kaos Kaki</td>
-                                    <td>12</td>
+                                    <td>Tali Sepatu</td>
+                                    <td>9</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Celana</td>
-                                    <td>15</td>
+                                    <td>Sol Sepatu</td>
+                                    <td>10</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
                                             Edit
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#edit">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Hapus
                                         </button>
                                     </td>
@@ -216,14 +216,10 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputEmail" class="sr-only">
-                            Nama Pasokan
-                        </label>
-                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
-                        <label for="inputPassword" class="sr-only">
-                            Jumlah
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputPasokan" class="sr-only">Nama Pasokan</label>
+                        <input type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputJumlah" class="sr-only">Jumlah</label>
+                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
                     </div>
                 </form>
             </div>
@@ -237,7 +233,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editLabel">Tambah Pasokan</h5>
+                <h5 class="modal-title" id="editLabel">Edit Pasokan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -245,14 +241,10 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputEmail" class="sr-only">
-                            Nama Pasokan
-                        </label>
-                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
-                        <label for="inputPassword" class="sr-only">
-                            Jumlah
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputPasokan" class="sr-only">Nama Pasokan</label>
+                        <input type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputJumlah" class="sr-only">Jumlah</label>
+                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
                     </div>
                 </form>
             </div>

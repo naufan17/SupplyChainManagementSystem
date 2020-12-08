@@ -124,6 +124,7 @@
                                     <th>Nama Pasokan</th>
                                     <th>Jumlah</th>
                                     <th>Status</th>
+                                    <th>Alamat</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -133,11 +134,12 @@
                                     <td>Sepatu</td>
                                     <td>5</td>
                                     <td>Menunggu Persetujuan</td>
+                                    <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm">
                                             Terima
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Tolak
                                         </button>
                                     </td>
@@ -147,11 +149,12 @@
                                     <td>Tas</td>
                                     <td>10</td>
                                     <td>Menunggu Persetujuan</td>
+                                    <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm">
                                             Terima
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Tolak
                                         </button>
                                     </td>
@@ -161,11 +164,12 @@
                                     <td>Baju</td>
                                     <td>15</td>
                                     <td>Menunggu Persetujuan</td>
+                                    <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm">
                                             Terima
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Tolak
                                         </button>
                                     </td>
@@ -175,11 +179,12 @@
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
                                     <td>Menunggu Persetujuan</td>
+                                    <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm">
                                             Terima
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Tolak
                                         </button>
                                     </td>
@@ -189,11 +194,12 @@
                                     <td>Celana</td>
                                     <td>15</td>
                                     <td>Menunggu Persetujuan</td>
+                                    <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-success btn-sm">
                                             Terima
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        <button type="button" class="btn btn-danger btn-sm">
                                             Tolak
                                         </button>
                                     </td>
@@ -206,24 +212,4 @@
         </div>
     </div>
 </main>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 @endsection

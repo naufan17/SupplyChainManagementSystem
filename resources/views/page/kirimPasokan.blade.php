@@ -131,28 +131,28 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Sepatu</td>
-                                    <td>5</td>
+                                    <td>Kain</td>
+                                    <td>15</td>
                                 </tr>
                                     <tr>
                                     <td>2</td>
-                                    <td>Tas</td>
-                                    <td>10</td>
+                                    <td>Benang</td>
+                                    <td>13</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Baju</td>
-                                    <td>15</td>
+                                    <td>Sablon</td>
+                                    <td>14</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Kaos Kaki</td>
-                                    <td>12</td>
+                                    <td>Tali Sepatu</td>
+                                    <td>9</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Celana</td>
-                                    <td>15</td>
+                                    <td>Sol Sepatu</td>
+                                    <td>10</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -175,18 +175,18 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputEmail" class="sr-only">
-                            Nama Pasokan
-                        </label>
-                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
-                        <label for="inputPassword" class="sr-only">
-                            Jumlah
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
-                        <label for="inputPassword" class="sr-only">
-                            Alamat
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Alamat" required>
+                        <label for="inputPasokan" class="sr-only">Nama Pasokan</label>
+                        <select type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                            <option>Kain</option>
+                            <option>Benang</option>
+                            <option>Sablon</option>
+                            <option>Tali Sepatu</option>
+                            <option>Sol Sepatu</option>
+                        </select>
+                        <label for="inputJumlah" class="sr-only">Jumlah</label>
+                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputAlamat" class="sr-only">Alamat</label>
+                        <input type="alamat" id="inputAlamat" class="form-control mb-3" placeholder="Alamat" required>
                     </div>
                 </form>
             </div>

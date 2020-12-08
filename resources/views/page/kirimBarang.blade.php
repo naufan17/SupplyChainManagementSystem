@@ -175,18 +175,18 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputEmail" class="sr-only">
-                            Nama Barang
-                        </label>
-                        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
-                        <label for="inputPassword" class="sr-only">
-                            Jumlah
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Jumlah" required>
-                        <label for="inputPassword" class="sr-only">
-                            Alamat
-                        </label>
-                        <input type="password" id="inputPassword" class="form-control mb-3" placeholder="Alamat" required>
+                        <label for="inputBarang" class="sr-only">Nama Barang</label>
+                        <select type="barang" id="inputBarang" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
+                            <option>Sepatu</option>
+                            <option>Tas</option>
+                            <option>Baju</option>
+                            <option>Kaos Kaki</option>
+                            <option>Celana</option>
+                        </select>
+                        <label for="inputJumlah" class="sr-only">Jumlah</label>
+                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
+                        <label for="inputAlamat" class="sr-only">Alamat</label>
+                        <input type="alamat" id="inputAlamat" class="form-control mb-3" placeholder="Alamat" required>
                     </div>
                 </form>
             </div>

@@ -130,59 +130,59 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Sepatu</td>
-                                    <td>5</td>
-                                    <td>Sudah Sampai</td>
+                                    <td>Kain</td>
+                                    <td>15</td>
+                                    <td>Kiriman Sampai</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
-                                            Konfirmasi Pesanan Pasokan
+                                        <button type="button" class="btn btn-success btn-sm">
+                                            Konfirmasi
                                         </button>
                                     </td>
                                 </tr>
-                                    <tr>
+                                <tr>
                                     <td>2</td>
-                                    <td>Tas</td>
-                                    <td>10</td>
-                                    <td>Sudah Sampai</td>
+                                    <td>Benang</td>
+                                    <td>13</td>
+                                    <td>Kiriman Sampai</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
-                                            Konfirmasi Pesanan Pasokan
+                                        <button type="button" class="btn btn-success btn-sm">
+                                            Konfirmasi
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Baju</td>
-                                    <td>15</td>
-                                    <td>Sudah Sampai</td>
+                                    <td>Sablon</td>
+                                    <td>14</td>
+                                    <td>Kiriman Sampai</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
-                                            Konfirmasi Pesanan Pasokan
+                                        <button type="button" class="btn btn-success btn-sm">
+                                            Konfirmasi
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Kaos Kaki</td>
-                                    <td>12</td>
-                                    <td>Sudah Sampai</td>
+                                    <td>Tali Sepatu</td>
+                                    <td>9</td>
+                                    <td>Kiriman Sampai</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
-                                            Konfirmasi Pesanan Pasokan
+                                        <button type="button" class="btn btn-success btn-sm">
+                                            Konfirmasi
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Celana</td>
-                                    <td>15</td>
-                                    <td>Sudah Sampai</td>
+                                    <td>Sol Sepatu</td>
+                                    <td>10</td>
+                                    <td>Kiriman Sampai</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">
-                                            Konfirmasi Pesanan Pasokan
+                                        <button type="button" class="btn btn-success btn-sm">
+                                            Konfirmasi
                                         </button>
                                     </td>
-                                </tr>
+                                </tr>                            
                             </tbody>
                         </table>
                     </div>
