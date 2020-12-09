@@ -124,8 +124,8 @@
                                     <th>Kode Pesanan</th>
                                     <th>Barang</th>
                                     <th>Jumlah</th>
-                                    <th>Status</th>
                                     <th>Alamat</th>
+                                    <th>Status</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -135,8 +135,8 @@
                                     <td>11</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
                                             Terima
@@ -151,8 +151,8 @@
                                     <td>12</td>
                                     <td>Tas</td>
                                     <td>10</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
                                             Terima
@@ -167,8 +167,8 @@
                                     <td>13</td>
                                     <td>Baju</td>
                                     <td>15</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
                                             Terima
@@ -183,8 +183,8 @@
                                     <td>14</td>
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
                                             Terima
@@ -199,8 +199,8 @@
                                     <td>15</td>
                                     <td>Celana</td>
                                     <td>15</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
                                             Terima

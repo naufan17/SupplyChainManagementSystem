@@ -128,8 +128,8 @@
                                     <th>Kode Pesanan</th>
                                     <th>Barang</th>
                                     <th>Jumlah</th>
-                                    <th>Status</th>
                                     <th>Alamat</th>
+                                    <th>Status</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -139,8 +139,8 @@
                                     <td>12</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-danger btn-sm">
                                             Batal
@@ -152,8 +152,8 @@
                                     <td>13</td>
                                     <td>Tas</td>
                                     <td>10</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-danger btn-sm">
                                             Batal
@@ -165,8 +165,8 @@
                                     <td>14</td>
                                      <td>Baju</td>
                                     <td>15</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-danger btn-sm">
                                             Batal
@@ -178,8 +178,8 @@
                                     <td>15</td>
                                      <td>Kaos Kaki</td>
                                     <td>12</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-danger btn-sm">
                                             Batal
@@ -191,8 +191,8 @@
                                     <td>16</td>
                                     <td>Celana</td>
                                     <td>15</td>
-                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>
                                         <button type="button" class="btn btn-danger btn-sm">
                                             Batal

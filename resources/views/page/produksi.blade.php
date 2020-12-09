@@ -173,7 +173,7 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Manufaktur</th>
+                                    <th>Manufaktur</th>
                                     <th>Kode Produksi</th>
                                     <th>Kode Barang</th>
                                     <th>Barang</th>

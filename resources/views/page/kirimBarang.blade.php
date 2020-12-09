@@ -129,8 +129,8 @@
                                     <th>Kode Pesanan</th>
                                     <th>Barang</th>
                                     <th>Jumlah</th>
-                                    <th>Status</th>
                                     <th>Alamat</th>
+                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -141,8 +141,8 @@
                                     <td>11</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
-                                    <td>Terkirim</td>
                                     <td>Sleman</td>
+                                    <td>Terkirim</td>
                                 </tr>
                                     <tr>
                                     <td>2</td>
@@ -151,8 +151,8 @@
                                     <td>12</td>
                                     <td>Tas</td>
                                     <td>10</td>
-                                    <td>Terkirim</td>
                                     <td>Sleman</td>
+                                    <td>Terkirim</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -161,8 +161,8 @@
                                     <td>13</td>
                                     <td>Baju</td>
                                     <td>15</td>
-                                    <td>Terkirim</td>
                                     <td>Sleman</td>
+                                    <td>Terkirim</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
@@ -171,8 +171,8 @@
                                     <td>14</td>
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
-                                    <td>Terkirim</td>
                                     <td>Sleman</td>
+                                    <td>Terkirim</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
@@ -181,8 +181,8 @@
                                     <td>15</td>
                                     <td>Celana</td>
                                     <td>15</td>
-                                    <td>Terkirim</td>
                                     <td>Sleman</td>
+                                    <td>Terkirim</td>
                                 </tr>
                             </tbody>
                         </table>
