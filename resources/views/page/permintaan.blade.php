@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -125,7 +125,8 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pasokan</th>
+                                    <th>Kode Pesanan</th>
+                                    <th>Barang</th>
                                     <th>Jumlah</th>
                                     <th>Status</th>
                                     <th>Alamat</th>
@@ -135,76 +136,66 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>12</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
-                                    <td>Sedang Dikirim</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
-                                            Edit
-                                        </button>
                                         <button type="button" class="btn btn-danger btn-sm">
-                                            Hapus
+                                            Batal
                                         </button>
                                     </td>
                                 </tr>
                                     <tr>
                                     <td>2</td>
+                                    <td>13</td>
                                     <td>Tas</td>
                                     <td>10</td>
-                                    <td>Sedang Dikirim</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
-                                            Edit
-                                        </button>
                                         <button type="button" class="btn btn-danger btn-sm">
-                                            Hapus
+                                            Batal
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Baju</td>
+                                    <td>14</td>
+                                     <td>Baju</td>
                                     <td>15</td>
-                                    <td>Sedang Dikirim</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
-                                            Edit
-                                        </button>
                                         <button type="button" class="btn btn-danger btn-sm">
-                                            Hapus
+                                            Batal
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Kaos Kaki</td>
+                                    <td>15</td>
+                                     <td>Kaos Kaki</td>
                                     <td>12</td>
-                                    <td>Sedang Dikirim</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
-                                            Edit
-                                        </button>
                                         <button type="button" class="btn btn-danger btn-sm">
-                                            Hapus
+                                            Batal
                                         </button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>16</td>
                                     <td>Celana</td>
                                     <td>15</td>
-                                    <td>Sedang Dikirim</td>
+                                    <td>Menunggu Persetujuan</td>
                                     <td>Sleman</td>
                                     <td>
-                                        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#edit">
-                                            Edit
-                                        </button>
                                         <button type="button" class="btn btn-danger btn-sm">
-                                            Hapus
+                                            Batal
                                         </button>
                                     </td>
                                 </tr>
@@ -229,8 +220,8 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                    <label for="inputBarang" class="sr-only">Nama Pasokan</label>
-                        <input type="barang" id="inputBarang" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
+                    <label for="inputBarang" class="sr-only">Barang</label>
+                        <input type="barang" id="inputBarang" class="form-control mb-3" placeholder="Barang" required autofocus>
                         <label for="inputJumlah" class="sr-only">Jumlah</label>
                         <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
                         <label for="inputAlamat" class="sr-only">Alamat</label>
@@ -240,33 +231,6 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary">Kirim</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="edit" tabindex="-1" aria-labelledby="editLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="editLabel">Tambah Pasokan</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="inputBarang" class="sr-only">Nama Pasokan</label>
-                        <input type="barang" id="inputBarang" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
-                        <label for="inputJumlah" class="sr-only">Jumlah</label>
-                        <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
-                        <label for="inputAlamat" class="sr-only">Alamat</label>
-                        <input type="alamat" id="inputAlamat" class="form-control mb-3" placeholder="Alamat" required>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success">Edit</button>
             </div>
         </div>
     </div>

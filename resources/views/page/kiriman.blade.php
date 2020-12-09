@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -121,17 +121,25 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pasokan</th>
+                                    <th>Kode Pengiriman</th>
+                                    <th>Kode Pasokan</th>
+                                    <th>Pasokan</th>
                                     <th>Jumlah</th>
+                                    <th>Supplier</th>
+                                    <th>Manufaktur</th>
                                     <th>Status</th>
-                                    <th>Konfirmasi</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>00001</td>
+                                    <td>36</td>
                                     <td>Kain</td>
                                     <td>15</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>........(Nama Manufaktur)</td>
                                     <td>Kiriman Sampai</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
@@ -139,10 +147,14 @@
                                         </button>
                                     </td>
                                 </tr>
-                                <tr>
+                                    <tr>
                                     <td>2</td>
+                                    <td>00002</td>
+                                    <td>37</td>
                                     <td>Benang</td>
                                     <td>13</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>........(Nama Manufaktur)</td>
                                     <td>Kiriman Sampai</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
@@ -152,8 +164,12 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>00003</td>
+                                    <td>38</td>
                                     <td>Sablon</td>
                                     <td>14</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>........(Nama Manufaktur)</td>
                                     <td>Kiriman Sampai</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
@@ -163,8 +179,12 @@
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>00004</td>
+                                    <td>39</td>
                                     <td>Tali Sepatu</td>
                                     <td>9</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>........(Nama Manufaktur)</td>
                                     <td>Kiriman Sampai</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
@@ -174,15 +194,19 @@
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>00005</td>
+                                    <td>40</td>
                                     <td>Sol Sepatu</td>
                                     <td>10</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>........(Nama Manufaktur)</td>
                                     <td>Kiriman Sampai</td>
                                     <td>
                                         <button type="button" class="btn btn-success btn-sm">
                                             Konfirmasi
                                         </button>
                                     </td>
-                                </tr>                            
+                                </tr>                                
                             </tbody>
                         </table>
                     </div>

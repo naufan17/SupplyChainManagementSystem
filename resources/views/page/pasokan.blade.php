@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -124,7 +124,9 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pasokan</th>
+                                    <th>Supplier</th>
+                                    <th>Kode Pasokan</th>
+                                    <th>Pasokan</th>
                                     <th>Jumlah</th>
                                     <th>Aksi</th>
                                 </tr>
@@ -132,6 +134,8 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>36</td>
                                     <td>Kain</td>
                                     <td>15</td>
                                     <td>
@@ -145,6 +149,8 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>37</td>
                                     <td>Benang</td>
                                     <td>13</td>
                                     <td>
@@ -158,6 +164,8 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>38</td>
                                     <td>Sablon</td>
                                     <td>14</td>
                                     <td>
@@ -171,6 +179,8 @@
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>39</td>
                                     <td>Tali Sepatu</td>
                                     <td>9</td>
                                     <td>
@@ -184,6 +194,8 @@
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>40</td>
                                     <td>Sol Sepatu</td>
                                     <td>10</td>
                                     <td>
@@ -216,8 +228,10 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputPasokan" class="sr-only">Nama Pasokan</label>
-                        <input type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputSupplier" class="sr-only">Supplier</label>
+                        <input type="supplier" id="inputSupplier" class="form-control mb-3" placeholder="Supplier" required autofocus>
+                        <label for="inputPasokan" class="sr-only">Pasokan</label>
+                        <input type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Pasokan" required autofocus>
                         <label for="inputJumlah" class="sr-only">Jumlah</label>
                         <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
                     </div>
@@ -235,14 +249,14 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="editLabel">Edit Pasokan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputPasokan" class="sr-only">Nama Pasokan</label>
-                        <input type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputPasokan" class="sr-only">Pasokan</label>
+                        <input type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Pasokan" required autofocus>
                         <label for="inputJumlah" class="sr-only">Jumlah</label>
                         <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
                     </div>

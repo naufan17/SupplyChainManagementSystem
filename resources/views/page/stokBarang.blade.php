@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -121,33 +121,45 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Barang</th>
+                                    <th>Manufaktur</th>
+                                    <th>Kode Barang</th>
+                                    <th>Barang</th>
                                     <th>Jumlah</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>116</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
                                 </tr>
                                     <tr>
                                     <td>2</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>117</td>
                                     <td>Tas</td>
                                     <td>10</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>118</td>
                                     <td>Baju</td>
                                     <td>15</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>119</td>
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>120</td>
                                     <td>Celana</td>
                                     <td>15</td>
                                 </tr>

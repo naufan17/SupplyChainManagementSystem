@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -121,7 +121,8 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pasokan</th>
+                                    <th>Kode Pesanan</th>
+                                    <th>Barang</th>
                                     <th>Jumlah</th>
                                     <th>Status</th>
                                     <th>Alamat</th>
@@ -131,6 +132,7 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>11</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
                                     <td>Menunggu Persetujuan</td>
@@ -146,6 +148,7 @@
                                 </tr>
                                     <tr>
                                     <td>2</td>
+                                    <td>12</td>
                                     <td>Tas</td>
                                     <td>10</td>
                                     <td>Menunggu Persetujuan</td>
@@ -161,6 +164,7 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>13</td>
                                     <td>Baju</td>
                                     <td>15</td>
                                     <td>Menunggu Persetujuan</td>
@@ -176,6 +180,7 @@
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>14</td>
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
                                     <td>Menunggu Persetujuan</td>
@@ -191,6 +196,7 @@
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>15</td>
                                     <td>Celana</td>
                                     <td>15</td>
                                     <td>Menunggu Persetujuan</td>

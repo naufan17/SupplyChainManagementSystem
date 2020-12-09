@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -124,35 +124,59 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pasokan</th>
+                                    <th>Supplier</th>
+                                    <th>Kode Pengiriman</th>
+                                    <th>Kode Pasokan</th>
+                                    <th>Pasokan</th>
                                     <th>Jumlah</th>
+                                    <th>Manufaktur</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>00001</td>
+                                    <td>36</td>
                                     <td>Kain</td>
                                     <td>15</td>
+                                    <td>........(Nama Manufaktur)</td>
                                 </tr>
                                     <tr>
                                     <td>2</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>00002</td>
+                                    <td>37</td>
                                     <td>Benang</td>
                                     <td>13</td>
+                                    <td>........(Nama Manufaktur)</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>00003</td>
+                                    <td>38</td>
                                     <td>Sablon</td>
                                     <td>14</td>
+                                    <td>........(Nama Manufaktur)</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>00004</td>
+                                    <td>39</td>
                                     <td>Tali Sepatu</td>
                                     <td>9</td>
+                                    <td>........(Nama Manufaktur)</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>........(Nama Supplier)</td>                                    
+                                    <td>00005</td>
+                                    <td>40</td>
                                     <td>Sol Sepatu</td>
                                     <td>10</td>
+                                    <td>........(Nama Manufaktur)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -175,8 +199,10 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputPasokan" class="sr-only">Nama Pasokan</label>
-                        <select type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Nama Pasokan" required autofocus>
+                        <label for="inputSupplier" class="sr-only">Supplier</label>
+                        <input type="supplier" id="inputSupplier" class="form-control mb-3" placeholder="Supplier" required>
+                        <label for="inputPasokan" class="sr-only">Pasokan</label>
+                        <select type="pasokan" id="inputPasokan" class="form-control mb-3" placeholder="Pasokan" required autofocus>
                             <option>Kain</option>
                             <option>Benang</option>
                             <option>Sablon</option>
@@ -185,8 +211,8 @@
                         </select>
                         <label for="inputJumlah" class="sr-only">Jumlah</label>
                         <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
-                        <label for="inputAlamat" class="sr-only">Alamat</label>
-                        <input type="alamat" id="inputAlamat" class="form-control mb-3" placeholder="Alamat" required>
+                        <label for="inputManufaktur" class="sr-only">Manufaktur</label>
+                        <input type="manufaktur" id="inputManufaktur" class="form-control mb-3" placeholder="Manufaktur" required>
                     </div>
                 </form>
             </div>

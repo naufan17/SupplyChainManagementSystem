@@ -1,6 +1,6 @@
 @extends('layouts.main ')
 
-@section('title', 'DStok Pasokan')
+@section('title', 'Stok Pasokan')
 
 @section('main')
 
@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -121,32 +121,44 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pasokan</th>
+                                    <th>Manufaktur</th>
+                                    <th>Kode Pasokan</th>
+                                    <th>Pasokan</th>
                                     <th>Jumlah</th>
                                 </tr>
                             </thead>
                             <tr>
                                     <td>1</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>36</td>
                                     <td>Kain</td>
                                     <td>15</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>37</td>
                                     <td>Benang</td>
                                     <td>13</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>38</td>
                                     <td>Sablon</td>
                                     <td>14</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>39</td>
                                     <td>Tali Sepatu</td>
                                     <td>9</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>........(Nama Manufaktur)</td>
+                                    <td>40</td>
                                     <td>Sol Sepatu</td>
                                     <td>10</td>
                                 </tr> 

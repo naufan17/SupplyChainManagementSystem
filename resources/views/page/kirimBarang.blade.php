@@ -46,7 +46,7 @@
                         </li>
                         <li>
                             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-white">
-                                <span>Maufaktur</span>
+                                <span>Manufaktur</span>
                             </h6>   
                         </li>
                         <li class="nav-item">
@@ -124,35 +124,65 @@
                             <thead class="thead-light">
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Barang</th>
+                                    <th>Distributor</th>
+                                    <th>Kode Pengiriman</th>
+                                    <th>Kode Pesanan</th>
+                                    <th>Barang</th>
                                     <th>Jumlah</th>
+                                    <th>Status</th>
+                                    <th>Alamat</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>........(Nama Distributor)</td>
+                                    <td>123</td>
+                                    <td>11</td>
                                     <td>Sepatu</td>
                                     <td>5</td>
+                                    <td>Terkirim</td>
+                                    <td>Sleman</td>
                                 </tr>
                                     <tr>
                                     <td>2</td>
+                                    <td>........(Nama Distributor)</td>
+                                    <td>124</td>
+                                    <td>12</td>
                                     <td>Tas</td>
                                     <td>10</td>
+                                    <td>Terkirim</td>
+                                    <td>Sleman</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>........(Nama Distributor)</td>
+                                    <td>125</td>
+                                    <td>13</td>
                                     <td>Baju</td>
                                     <td>15</td>
+                                    <td>Terkirim</td>
+                                    <td>Sleman</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>........(Nama Distributor)</td>
+                                    <td>126</td>
+                                    <td>14</td>
                                     <td>Kaos Kaki</td>
                                     <td>12</td>
+                                    <td>Terkirim</td>
+                                    <td>Sleman</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
+                                    <td>........(Nama Distributor)</td>
+                                    <td>127</td>
+                                    <td>15</td>
                                     <td>Celana</td>
                                     <td>15</td>
+                                    <td>Terkirim</td>
+                                    <td>Sleman</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -175,14 +205,18 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="inputBarang" class="sr-only">Nama Barang</label>
-                        <select type="barang" id="inputBarang" class="form-control mb-3" placeholder="Nama Barang" required autofocus>
-                            <option>Sepatu</option>
-                            <option>Tas</option>
-                            <option>Baju</option>
-                            <option>Kaos Kaki</option>
-                            <option>Celana</option>
+                        <label for="inputDistributor" class="sr-only">Distributor</label>
+                        <input type="distributor" id="inputDistributor" class="form-control mb-3" placeholder="Distributor" required autofocus>
+                        <label for="inputpesanan" class="sr-only">Kode Pesanan</label>
+                        <select type="pesanan" id="inputpesanan" class="form-control mb-3" placeholder="Kode Pesanan" required autofocus>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
                         </select>
+                        <label for="inputBarang" class="sr-only">Barang</label>
+                        <input type="barang" id="inputBarang" class="form-control mb-3" placeholder="Barang" required autofocus>
                         <label for="inputJumlah" class="sr-only">Jumlah</label>
                         <input type="jumlah" id="inputJumlah" class="form-control mb-3" placeholder="Jumlah" required>
                         <label for="inputAlamat" class="sr-only">Alamat</label>
