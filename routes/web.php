@@ -12,8 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/login', function () {
+Route::get('/logon', function () {
     return view('page.login');
 });
 
@@ -61,3 +60,6 @@ Route::get('/konfirmasi', function () {
     return view('page.konfirmasi');
 });
 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
