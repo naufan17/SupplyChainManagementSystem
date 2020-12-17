@@ -6,7 +6,7 @@
 
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
     <div class="my-3 p-3 bg-white rounded shadow-sm">
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
             <h1 class="h4">Tambah Pasokan</h1>
         </div>
         <button type="button" class="btn btn-primary btn-sm pb-2 mb-3" data-toggle="modal" data-target="#tambahPasokan">
