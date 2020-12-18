@@ -82,3 +82,8 @@ body {
   top: .25rem;
   right: 1rem;
 }
+
+.widget-content .widget-content-left .widget-heading {
+  opacity: .8;
+  font-weight: bold;
+}
