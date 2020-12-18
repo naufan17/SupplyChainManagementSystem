@@ -11,23 +11,23 @@
             <h1 class="h4">Dashboard</h1>
         </div>
         <div class="card-deck">
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card shadow py-1">
                 <div class="card-body">
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                    <div class="text-xs font-weight-bold text-primary text-uppercase">
                         Produksi Barang</div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
                 </div>
             </div>
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card shadow py-1">
                 <div class="card-body">
-                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                    <div class="text-xs font-weight-bold text-success text-uppercase">
                         Barang Terjual</div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">45</div>
                 </div>
             </div>
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card shadow py-1">
                 <div class="card-body">
-                    <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                    <div class="text-xs font-weight-bold text-danger text-uppercase">
                         Pelanggan</div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">25</div>
                 </div>

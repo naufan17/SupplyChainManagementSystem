@@ -64,3 +64,7 @@ Route::group(['middleware' => 'auth'], function(){
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
+
+Route::get('/', function () {
+    return view('auth.login');
+});
