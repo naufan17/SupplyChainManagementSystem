@@ -13,6 +13,13 @@
         <div class="card-deck">
             <div class="card shadow py-1">
                 <div class="card-body">
+                    <div class="text-xs font-weight-bold text-danger text-uppercase">
+                        Stok Pasokan</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
+                </div>
+            </div>
+            <div class="card shadow py-1">
+                <div class="card-body">
                     <div class="text-xs font-weight-bold text-primary text-uppercase">
                         Produksi Barang</div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
@@ -20,16 +27,23 @@
             </div>
             <div class="card shadow py-1">
                 <div class="card-body">
-                    <div class="text-xs font-weight-bold text-success text-uppercase">
-                        Barang Terjual</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">45</div>
+                    <div class="text-xs font-weight-bold text-info text-uppercase">
+                        Stok Barang</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">50</div>
                 </div>
             </div>
             <div class="card shadow py-1">
                 <div class="card-body">
-                    <div class="text-xs font-weight-bold text-danger text-uppercase">
-                        Pelanggan</div>
+                    <div class="text-xs font-weight-bold text-warning text-uppercase">
+                        Permintaan Pesanan</div>
                     <div class="h5 mb-0 font-weight-bold text-gray-800">25</div>
+                </div>
+            </div>
+            <div class="card shadow py-1">
+                <div class="card-body">
+                    <div class="text-xs font-weight-bold text-success text-uppercase">
+                        Barang Terjual</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">45</div>
                 </div>
             </div>
         </div>

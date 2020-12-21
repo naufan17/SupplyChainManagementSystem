@@ -16,47 +16,47 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => 'auth'], function(){
     
     Route::get('/dashboard', function () {
-        return view('page.dashboard');
+        return view('dashboard');
     });
     
     Route::get('/pasokan', function () {
-        return view('page.pasokan');
+        return view('supplier.pasokan');
     });
     
     Route::get('/kirimPasokan', function () {
-        return view('page.kirimPasokan');
+        return view('supplier.kirimPasokan');
     });
     
     Route::get('/kiriman', function () {
-        return view('page.kiriman');
+        return view('manufaktur.kiriman');
     });
     
     Route::get('/stokPasokan', function () {
-        return view('page.stokPasokan');
+        return view('manufaktur.stokPasokan');
     });
     
     Route::get('/produksi', function () {
-        return view('page.produksi');
+        return view('manufaktur.produksi');
     });
     
     Route::get('/stokBarang', function () {
-        return view('page.StokBarang');
+        return view('manufaktur.stokBarang');
     });
     
     Route::get('/pesanan', function () {
-        return view('page.pesanan');
+        return view('distributor.pesanan');
     });
     
     Route::get('/kirimBarang', function () {
-        return view('page.kirimBarang');
+        return view('distributor.kirimBarang');
     });
     
     Route::get('/permintaan', function () {
-        return view('page.permintaan');
+        return view('retail.permintaan');
     });
     
     Route::get('/konfirmasi', function () {
-        return view('page.konfirmasi');
+        return view('retail.konfirmasi');
     });
     
 });
