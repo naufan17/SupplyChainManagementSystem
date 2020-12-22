@@ -14,51 +14,39 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['middleware' => 'auth'], function(){
-    
     Route::get('/dashboard', function () {
         return view('dashboard');
     });
-    
     Route::get('/pasokan', function () {
         return view('supplier.pasokan');
     });
-    
     Route::get('/kirimPasokan', function () {
         return view('supplier.kirimPasokan');
     });
-    
     Route::get('/kiriman', function () {
         return view('manufaktur.kiriman');
     });
-    
     Route::get('/stokPasokan', function () {
         return view('manufaktur.stokPasokan');
     });
-    
     Route::get('/produksi', function () {
         return view('manufaktur.produksi');
     });
-    
     Route::get('/stokBarang', function () {
         return view('manufaktur.stokBarang');
     });
-    
     Route::get('/pesanan', function () {
         return view('distributor.pesanan');
     });
-    
     Route::get('/kirimBarang', function () {
         return view('distributor.kirimBarang');
     });
-    
     Route::get('/permintaan', function () {
         return view('retail.permintaan');
     });
-    
     Route::get('/konfirmasi', function () {
         return view('retail.konfirmasi');
     });
-    
 });
 
 Auth::routes();
