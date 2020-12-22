@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Register')
+
 @section('content')
 <form method="POST" action="{{ route('register') }}">
     <h1 class="h4 mb-3 font-weight-normal text-center">Register</h1>

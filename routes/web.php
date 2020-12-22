@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
+
 Route::group(['middleware' => 'auth'], function(){
     Route::get('/dashboard', function () {
         return view('dashboard');
@@ -48,10 +52,6 @@ Route::group(['middleware' => 'auth'], function(){
         return view('retail.konfirmasi');
     });
 });
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('/', function () {
     return view('auth.login');
