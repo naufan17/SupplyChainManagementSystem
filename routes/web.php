@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\Auth\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,44 +16,40 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
-
 Route::group(['middleware' => 'auth'], function(){
-    Route::get('/dashboard', function () {
+    Route::get('dashboard', function () {
         return view('dashboard');
     });
-    Route::get('/pasokan', function () {
+    Route::get('pasokan', function () {
         return view('supplier.pasokan');
     });
-    Route::get('/kirimPasokan', function () {
+    Route::get('kirimPasokan', function () {
         return view('supplier.kirimPasokan');
     });
-    Route::get('/kiriman', function () {
+    Route::get('kiriman', function () {
         return view('manufaktur.kiriman');
     });
-    Route::get('/stokPasokan', function () {
+    Route::get('stokPasokan', function () {
         return view('manufaktur.stokPasokan');
     });
-    Route::get('/produksi', function () {
+    Route::get('produksi', function () {
         return view('manufaktur.produksi');
     });
-    Route::get('/stokBarang', function () {
+    Route::get('stokBarang', function () {
         return view('manufaktur.stokBarang');
     });
-    Route::get('/pesanan', function () {
+    Route::get('pesanan', function () {
         return view('distributor.pesanan');
     });
-    Route::get('/kirimBarang', function () {
+    Route::get('kirimBarang', function () {
         return view('distributor.kirimBarang');
     });
-    Route::get('/permintaan', function () {
+    Route::get('permintaan', function () {
         return view('retail.permintaan');
     });
-    Route::get('/konfirmasi', function () {
+    Route::get('konfirmasi', function () {
         return view('retail.konfirmasi');
     });
 });
 
-Route::get('/', function () {
-    return view('auth.login');
-});
+Route::redirect('', 'login');
