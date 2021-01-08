@@ -77,10 +77,10 @@
             </div>
         </nav>
 
-        <main class="py-5">
+        <main class="py-2">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="my-4 p-4 bg-white rounded shadow">
                             @yield('content')
                         </div>

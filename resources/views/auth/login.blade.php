@@ -4,7 +4,10 @@
 
 @section('content')
 <form method="POST" action="{{ route('login') }}">
-    <h1 class="h4 mb-3 font-weight-normal text-center">Login</h1>
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-2 pb-3 mb-4 border-bottom">
+        <h1 class="h4 ml-2">Supply Chain Management System</h1>
+    </div>
+    <h1 class="h4 mb-3 font-weight-normal text-center">Login User</h1>
     @csrf
     <div class="form-group row">   
         <div class="col-sm-12">
